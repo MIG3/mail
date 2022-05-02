@@ -21,6 +21,9 @@ public class AuthTest
     @BeforeClass
     public static void setup()
     {
+        // Если ошибка при запуске из-за старой версии драйвера файрфокса, скачать по ссылке и положить в папку по указанному пути ниже. Комментарий снять тогда.
+        //System.setProperty("webdriver.gecko.driver", "C:\\Users\\mgubin\\Downloads\\geckodriver.exe");
+
         driver = new FirefoxDriver();
         loginPage = new LoginPage(driver);
         passwPage = new PasswPage(driver);

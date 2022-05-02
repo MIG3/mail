@@ -17,6 +17,9 @@ public class Main1
 
     public static void main(String[] args)
     {
+        // Если ошибка при запуске из-за старой версии драйвера файрфокса, скачать по ссылке и положить в папку по указанному пути ниже. Комментарий снять тогда.
+        //System.setProperty("webdriver.gecko.driver", "C:\\Users\\mgubin\\Downloads\\geckodriver.exe");
+
         String email = "guard1an33";
         String password = "ThKaw80n4c";
 
